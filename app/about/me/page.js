@@ -2,11 +2,16 @@
 
 const Me = () => {
     return (
-        <div>
+        <div className="w-screen h-full bg-slate-100">
             I am Rahim. facing a problem 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ut!
             <div>
-                I am 23 years old. I like problem solving.
+                <p>
+                I am 23 years old. 
+                </p>
+                <p className="text-red-500">
+                I like problem solving.
+                </p>
             </div>
         </div>
     );
